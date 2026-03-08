@@ -7,13 +7,13 @@ function Home() {
       {/* Hero Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
-          Understand the Emotion <br className="hidden md:block" />
+          Discover the Emotion <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
-            Behind the Sound.
+            Behind the Music.
           </span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-slate-600 mb-10">
-          Auralyze is a multimodal AI platform that analyzes audio frequencies, linguistic sentiment, and visual music sheets to map complex human emotions.
+          Auralyze is your personal AI music expert. Upload a song, paste your favorite lyrics, or drop in a concert photo to instantly uncover the deep moods, genres, and hidden meanings.
         </p>
         
         <div className="flex justify-center gap-4">
@@ -35,9 +35,9 @@ function Home() {
             <div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mb-6">
               <span className="text-2xl">🎵</span>
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Audio CRNN Engine</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">Audio Analysis</h3>
             <p className="text-slate-600 leading-relaxed">
-              Upload MP3 or WAV files. Our Convolutional Recurrent Neural Network tracks rhythmic patterns over time to classify genre and mood.
+              Upload an audio file or paste a streaming link. Our smart AI listens to the instruments, rhythm, and beat to instantly detect the song's genre and emotional vibe.
             </p>
           </div>
 
@@ -46,9 +46,9 @@ function Home() {
             <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
               <span className="text-2xl">📝</span>
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">NLP BiLSTM Analysis</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">Lyric Breakdown</h3>
             <p className="text-slate-600 leading-relaxed">
-              Upload text or lyrics. Our State-of-the-Art Bidirectional LSTM detects 28 distinct psychological states and emotions.
+              Curious about what a song really means? Upload the lyrics and let Auralyze read between the lines to uncover the deep psychological emotions and themes hidden inside.
             </p>
           </div>
 
@@ -57,9 +57,9 @@ function Home() {
             <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
               <span className="text-2xl">👁️</span>
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Zero-Shot Vision</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">Visual Vibe Check</h3>
             <p className="text-slate-600 leading-relaxed">
-              Upload images. Our integrated CLIP architecture visually scans for sheet music, instruments, and live concert environments.
+              Music is visual, too. Drop in a photo of sheet music, a live concert, or a musical instrument, and our AI will recognize the scene and describe its musical atmosphere.
             </p>
           </div>
 
