@@ -1,0 +1,26 @@
+# Node and Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.vite/
+
+# Python and Backend
+venv/
+backend/venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Massive AI Models & Datasets
+saved_models/
+backend/saved_models/
+Data/
+backend/Data/
+
+# Temporary Files
+backend/temp_audio.wav
+backend/temp_downloaded_audio.*
+
+# OS Files
+.DS_Store
